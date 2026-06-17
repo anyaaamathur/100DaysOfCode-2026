@@ -13,7 +13,4 @@
  int main(){
     int arr[]={1,1,2,2,2,2,3,3,3,3,4,4,4};
     int n=sizeof(arr)/sizeof(arr[0]);
-    int target=2;
-    printf("Number of occurrences of %d: %d\n", target, occur(arr, n, target));
-    return 0;
  }
