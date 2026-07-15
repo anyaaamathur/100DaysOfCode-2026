@@ -18,8 +18,9 @@ class d4question1_leetcode{
             for(int j=0; j<m; j++){
                 copy[i][j]=matrix[j][i];
             }
-        }for(int []i:copy){for(int j:i){}
         sc.close();
+
+        }for(int []i:copy){
 
         System.out.println(Arrays.toString(i));}
         
